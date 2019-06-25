@@ -1,0 +1,66 @@
+Overlap Matrix Completion (OMC) can conduct drug-disease prediction on three datasets: Fdataset, Cdataset, and DNdataset, which can be loaded by matlab.
+
+(1) Fdataset
+Wrname: the DrugBank IDs of drugs;
+Wdname: the OMIM IDs of diseases;
+drug: drug similarity matrix;
+disease: disease similarity matrix;
+didr: disease-drug association matrix.
+
+(2) Fdataset_Matrix_DrProA_DrugBank
+drugID_sort: the DrugBank IDs of drugs, assigned number;
+proteinID_dr_sort: the Uniprot IDs of proteins, assigned number;
+dr_pro_pair: drug-protein interaction pairs are represented by assigned number pairs;
+Matrix_dr_pro_associ: drug-protein interaction matrix;
+data: the DrugBank IDs of drugs,the Uniprot IDs of proteins.
+
+(3) Fdataset_Matrix_DisProA_CTDomim
+omimID_sort:  the OMIM IDs of diseases, assigned number;
+proteinID_dis_sort: the Uniprot IDs of proteins, assigned number;
+dis_pro_pair: disease-protein association pairs are represented by assigned number pairs;
+Matrix_dis_pro_associ: disease-protein association matrix;
+data2: the OMIM IDs of diseases, gene IDs, the Uniprot IDs of proteins.
+
+(4) Cdataset
+Wrname: the DrugBank IDs of drugs;
+Wdname: the OMIM IDs of diseases;
+drug: drug similarity matrix;
+disease: disease similarity matrix;
+didr: disease-drug association matrix.
+
+(5) Cdataset_Matrix_DrProA_DrugBank
+drugID_sort: the DrugBank IDs of drugs, assigned number;
+proteinID_dr_sort: the Uniprot IDs of proteins, assigned number;
+dr_pro_pair: drug-protein interaction pairs are represented by assigned number pairs;
+Matrix_dr_pro_associ: drug-protein interaction matrix;
+data: the DrugBank IDs of drugs,the Uniprot IDs of proteins.
+
+(6) Cdataset_Matrix_DisProA_CTDomim
+omimID_sort:  the OMIM IDs of diseases, assigned number;
+proteinID_dis_sort: the Uniprot IDs of proteins, assigned number;
+dis_pro_pair: disease-protein association pairs are represented by assigned number pairs;
+Matrix_dis_pro_associ: disease-protein association matrix;
+data2: the OMIM IDs of diseases, gene IDs, the Uniprot IDs of proteins.
+
+(7) DNdataset
+Wrname: the names of drugs;
+Wdname: the names of diseases;
+drug: drug similarity matrix;
+disease: disease similarity matrix;
+protein: protein-prottein interaction matrix;
+didr: disease-drug association matrix;
+protein_disease: protein-disease association matrix;
+drug_protein: drug-protein interaction matrix.
+
+Tips:
+Fdataset(1) is obtained from the supplementary material of paper Gottlieb et al., 2011.
+[Gottlieb et al. PREDICT: a method for inferring novel drug indications with application to personalized medicine[J]. Molecular systems biology, 2011,7(1), 496.];
+
+Cdataset(4) is downloaded from the supplementary material of paper H Luo et al.,2016.
+[H Luo et al. Drug repositioning based on comprehensive similarity measures and Bi-Random Walk algorithm[J]. Bioinformatics, 2016, 32(17).];
+
+DNdataset(7) is downloaded from the supplementary material of paper Martinez et al., 2015.
+[Martinez et al. Drugnet: network-based drug-disease prioritization by integrating heterogeneous
+data[J]. Artificial Intelligence in Medicine, 63(1), 41¨C49.]
+
+We collected Fdataset_Matrix_DrProA_DrugBank(2), Fdataset_Matrix_DisProA_CTDomim(3), Cdataset_Matrix_DrProA_DrugBank(5), and Cdataset_Matrix_DisProA_CTDomim(6).
