@@ -19,5 +19,6 @@ Contact:
 If you have any questions or suggestions with the code, please let us know. 
 Contact Mengyun Yang at mengyunyang@csu.edu.cn
 
-Citation:
+# Citation
+
 Yang M, Luo H, Li Y, Wu F-X, Wang J. Overlap matrix completion for predicting drug-associated indications[J]. PLoS Computational Biology, 2019, 15(12): e1007541.
