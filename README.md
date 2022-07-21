@@ -17,7 +17,7 @@ Description:
 
 Contact:
 If you have any questions or suggestions with the code, please let us know. 
-Contact Mengyun Yang at mengyunyang@csu.edu.cn
+Contact Mengyun Yang at mengyun_yang@126.com
 
 # Citation
 
